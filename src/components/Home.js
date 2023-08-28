@@ -91,33 +91,49 @@ const Home = ({ searchValue }) => {
                       >
                         {hoveredPairIndex === index && (
                           <div>
-                            <div className="product-details fixed top-[30vh] left-[40vw] md:top-[10vh] md:left-[0vw] md:w-[180px] bg-[#3B3835] p-4 rounded-md shadow-md">
-                              <h2 className="text-lg font-semibold">
+                            <div className="product-details fixed top-[30vh] left-[40vw] md:top-[10vh] md:left-[5vw] md:w-[160px] bg-[#3B3835] p-4 rounded-md shadow-md">
+                              <h2 className="text-lg md:text-[12px] font-semibold">
                                 Product: {pair[0].product_name}
                               </h2>
-                              <p>Product Details: {pair[0].quantity}</p>
-                              <p>Description: {pair[0].description}</p>
+                              <p className="md:text-[10px]">
+                                Quantity: {pair[0].quantity}
+                              </p>
+                              <p className="md:text-[10px]">
+                                Description: {pair[0].description}
+                              </p>
                             </div>
-                            <div className="product-details fixed top-[30vh] left-[70vw] md:top-[10vh] md:left-[50vw] md:w-[180px] bg-[#3B3835] p-4 rounded-md shadow-md">
-                              <h2 className="text-lg font-semibold">
+                            <div className="product-details fixed top-[30vh] left-[70vw] md:top-[10vh] md:left-[50vw] md:w-[160px] bg-[#3B3835] p-4 rounded-md shadow-md">
+                              <h2 className="text-lg md:text-[12px] font-semibold">
                                 Product: {pair[1].product_name}
                               </h2>
-                              <p>Product Details: {pair[1].quantity}</p>
-                              <p>Description: {pair[1].description}</p>
+                              <p className="md:text-[10px]">
+                                Quantity: {pair[1].quantity}
+                              </p>
+                              <p className="md:text-[10px]">
+                                Description: {pair[1].description}
+                              </p>
                             </div>
-                            <div className="product-details fixed top-[60vh] left-[40vw] md:top-[30vh] md:left-[0vw] md:w-[180px] bg-[#3B3835] p-4 rounded-md shadow-md">
-                              <h2 className="text-lg font-semibold">
+                            <div className="product-details fixed top-[60vh] left-[40vw] md:top-[30vh] md:left-[5vw] md:w-[160px] bg-[#3B3835] p-4 rounded-md shadow-md">
+                              <h2 className="text-lg md:text-[12px] font-semibold">
                                 Product: {pair[2].product_name}
                               </h2>
-                              <p>Product Details: {pair[2].quantity}</p>
-                              <p>Description: {pair[2].description}</p>
+                              <p className="md:text-[10px]">
+                                Quantity: {pair[2].quantity}
+                              </p>
+                              <p className="md:text-[10px]">
+                                Description: {pair[2].description}
+                              </p>
                             </div>
-                            <div className="product-details fixed top-[60vh] left-[70vw] md:top-[30vh] md:left-[50vw] md:w-[180px] bg-[#3B3835] p-4 rounded-md shadow-md">
-                              <h2 className="text-lg font-semibold">
+                            <div className="product-details fixed top-[60vh] left-[70vw] md:top-[30vh] md:left-[50vw] md:w-[160px] bg-[#3B3835] p-4 rounded-md shadow-md">
+                              <h2 className="text-lg md:text-[12px] font-semibold">
                                 Product: {pair[3].product_name}
                               </h2>
-                              <p>Product Details: {pair[3].quantity}</p>
-                              <p>Description: {pair[3].description}</p>
+                              <p className="md:text-[10px]">
+                                Quantity: {pair[3].quantity}
+                              </p>
+                              <p className="md:text-[10px]">
+                                Description: {pair[3].description}
+                              </p>
                             </div>
                           </div>
                         )}
@@ -323,33 +339,49 @@ const Home = ({ searchValue }) => {
                       >
                         {hoverPairIndex === index && (
                           <div>
-                            <div className="product-details fixed top-[30vh] left-[40vw] md:top-[10vh] md:left-[0vw] md:w-[180px] bg-[#3B3835] p-4 rounded-md shadow-md">
-                              <h2 className="text-lg font-semibold">
+                            <div className="product-details fixed top-[30vh] left-[40vw] md:top-[10vh] md:left-[5vw] md:w-[160px] bg-[#3B3835] p-4 rounded-md shadow-md">
+                              <h2 className="text-lg md:text-[12px] font-semibold">
                                 Product: {pair[0].product_name}
                               </h2>
-                              <p>Product Details: {pair[0].quantity}</p>
-                              <p>Description: {pair[0].description}</p>
+                              <p className="md:text-[10px]">
+                                Quantity: {pair[0].quantity}
+                              </p>
+                              <p className="md:text-[10px]">
+                                Description: {pair[0].description}
+                              </p>
                             </div>
-                            <div className="product-details fixed top-[30vh] left-[70vw] md:top-[10vh] md:left-[50vw] md:w-[180px] bg-[#3B3835] p-4 rounded-md shadow-md">
-                              <h2 className="text-lg font-semibold">
+                            <div className="product-details fixed top-[30vh] left-[70vw] md:top-[10vh] md:left-[50vw] md:w-[160px] bg-[#3B3835] p-4 rounded-md shadow-md">
+                              <h2 className="text-lg md:text-[12px] font-semibold">
                                 Product: {pair[1].product_name}
                               </h2>
-                              <p>Product Details: {pair[1].quantity}</p>
-                              <p>Description: {pair[1].description}</p>
+                              <p className="md:text-[10px]">
+                                Quantity: {pair[1].quantity}
+                              </p>
+                              <p className="md:text-[10px]">
+                                Description: {pair[1].description}
+                              </p>
                             </div>
-                            <div className="product-details fixed top-[60vh] left-[40vw] md:top-[30vh] md:left-[0vw] md:w-[180px] bg-[#3B3835] p-4 rounded-md shadow-md">
-                              <h2 className="text-lg font-semibold">
+                            <div className="product-details fixed top-[60vh] left-[40vw] md:top-[30vh] md:left-[5vw] md:w-[160px] bg-[#3B3835] p-4 rounded-md shadow-md">
+                              <h2 className="text-lg md:text-[12px] font-semibold">
                                 Product: {pair[2].product_name}
                               </h2>
-                              <p>Product Details: {pair[2].quantity}</p>
-                              <p>Description: {pair[2].description}</p>
+                              <p className="md:text-[10px]">
+                                Quantity: {pair[2].quantity}
+                              </p>
+                              <p className="md:text-[10px]">
+                                Description: {pair[2].description}
+                              </p>
                             </div>
-                            <div className="product-details fixed top-[60vh] left-[70vw] md:top-[30vh] md:left-[50vw] md:w-[180px] bg-[#3B3835] p-4 rounded-md shadow-md">
-                              <h2 className="text-lg font-semibold">
+                            <div className="product-details fixed top-[60vh] left-[70vw] md:top-[30vh] md:left-[50vw] md:w-[160px] bg-[#3B3835] p-4 rounded-md shadow-md">
+                              <h2 className="text-lg md:text-[12px] font-semibold">
                                 Product: {pair[3].product_name}
                               </h2>
-                              <p>Product Details: {pair[3].quantity}</p>
-                              <p>Description: {pair[3].description}</p>
+                              <p className="md:text-[10px]">
+                                Quantity: {pair[3].quantity}
+                              </p>
+                              <p className="md:text-[10px]">
+                                Description: {pair[3].description}
+                              </p>
                             </div>
                           </div>
                         )}
