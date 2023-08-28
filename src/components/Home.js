@@ -48,7 +48,7 @@ const Home = ({ searchValue }) => {
               {Array.from({ length: 3 }, (_, rowIndex) => (
                 <div
                   key={rowIndex}
-                  className="absolute flex flex-row md:left-[5vw] left-[3.5vw] space-x-8 md:space-x-2"
+                  className="absolute flex flex-row md:left-[5vw] left-[3.5vw] space-x-8 md:space-x-2.5"
                   // style={{
                   //   top: `${190 + rowIndex * 70}px`,
                   //   "@media (max-width: 767px)": {
@@ -302,7 +302,7 @@ const Home = ({ searchValue }) => {
               {Array.from({ length: 3 }, (_, rowIndex) => (
                 <div
                   key={rowIndex}
-                  className="absolute flex flex-row left-[7vw] md:left-[7vw] space-x-10 md:top-[60px] md:space-x-2"
+                  className="absolute flex flex-row left-[7vw] md:left-[7vw] space-x-10 md:top-[60px] md:space-x-2.5"
                   style={{
                     top:
                       window.innerWidth >= 767
